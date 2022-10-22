@@ -1,0 +1,175 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #e1deab;
+    overflow-x:hidden
+}
+
+/* HEADER */
+#header-menu{
+    background-color: #ccce86;
+}
+.navHeader{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    Align-items: center;
+ justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.navHeader li{
+    list-style:none;
+}
+.liIcono{
+    width: 15%;
+    margin-left: 2%;
+
+}
+.diplayMobile{
+    display: none;
+}
+.textMenu{
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #606065;
+    width: fit-content;
+}
+.textMenu:hover{
+    color: #000;
+    width: 50%;
+    font-size: 1.4rem;
+}
+.iconoMenu{
+    width: 80%
+}
+
+/* section banner */
+#section-banner{
+    background-image: url(../img/fotos/Cerro\ elelefante\ ´prtada.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size:cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+.textBanner{
+    margin-top: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8em;
+    color: #fff;
+}
+
+/* section galeria */
+.subtituloGaleria{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000;
+    text-align: center;
+    width: 100%;
+    font-size: 1.6em;
+}
+.divGaleria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.imagenLugares{
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size:cover;
+    height: 25vh;
+    width: 45vh;
+    text-decoration: none;
+    margin: 2%;
+}
+.imagenLugares:hover{
+    height: 45vh;
+    width: 65vh;
+    border:solid #dc9d4f;
+}
+.galeriaElefante{
+    background-image:url(../img/fotos/cerro\ el\ elefante\ desde\ hosteria\ .jpg);
+}
+.galeriaToboganes{
+    background-image:url(../img/fotos/toboganes\ 4.jpg);
+}
+.galeriaCruz{
+    background-image: url(../img/fotos/Cruz\ gloriosa.jpg);
+}
+.galeriaFacundo{
+    background-image: url(../img/fotos/casa\ de\ jfq\ .jpeg);
+}
+.galeriaParroquia{
+    background-image: url(../img/fotos/parroquia.jpg);
+}
+.galeriaVirgenCamino{
+    background-image: url(../img/fotos/virgen\ del\ camino.jpg);
+}
+.galeriaSagrado{
+    background-image: url(../img/fotos/sagrado\ corazon\ 2.jpeg);
+}
+.galeriaMuseo{
+    background-image: url(../img/fotos/museo\ .jpg);
+}
+.galeriaDescanso{
+    background-image: url(../img/fotos/camping\ 3.jpeg);
+}
+.textGaleria{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ccce86;
+    color: #000;
+    text-align: center;
+    width: 100%; 
+    font-size: 1.3em;
+    margin-top: 40%;
+}
+.textParrafo{
+    font-size: 0.6em;
+    color: #000;
+}
+
+/* section extra */
+.divPaginacion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ccce86;
+    margin: 5%;
+    align-items: center;
+    text-align: center;
+}
+.buttonExtra a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000;
+}
+.buttonExtra{
+    background-color: #eaf0cc;
+    border: none;
+    border-radius: 30px;
+    height: 4vh;
+    width: 80%;
+    font-size: 1.2em;
+    margin: 2%;
+}
+.buttonExtra:hover{
+    background-color: #eaf0cc;
+    border: solid #666743;
+    height: 6vh;
+}
+
+/* FOOTTER */
+#footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ccce86;
+    color: #000;
+    font-size: 1em;
+}

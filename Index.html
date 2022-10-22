@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turismo Malanzan</title>
+    <link rel="stylesheet" href="./css/style.css">
 
 </head>
 
@@ -13,92 +14,85 @@
     <header id="header-menu">
         <img src="" alt="" id="logo-principal">
         <nav>
-            <li>
-                <ul>
-                    <a href="./index.html">
-                        <img src="../img/iconos/inicio.png" alt="inicio">
-                        Inicio
-                    </a>
-                </ul>
-                <ul>
-                    <a href="./ubicacion.html">
-                        <img src="../img/iconos/ubicacion.png" alt="inicio" >
-                        Ubicación
-                    </a>
-                </ul>
-                <ul>
-                    <a href="">
-                        <img src="../img/iconos/eventos.png" alt="inicio">
-                        Eventos
-                    </a>
-                </ul>
-                <ul>
-                    <a href="">
-                        <img src="../img/iconos/alojamiento.png" alt="inicio" >
-                        Alojamiento
-                    </a>
-                </ul>
-                <ul >
-                    <a href="">
-                        <img src="../img/iconos/contacto.png" alt="inicio">
-                        Contacto
-                    </a>
-                </ul>
-            </li>
+            <ul class="navHeader">
+                <li class="liIcono">
+                    <a href="./index.html" class="textMenu diplayMobile">Inicio </a>
+                    <img src="./img/iconos/inicio.png" class="iconoMenu" alt="inicio">
+                </li>
+                <li class="liIcono">
+                    <a href="./ubicacion.html" class="textMenu diplayMobile"> Ubicación</a>
+                    <img src="./img/iconos/ubicacion.png" class="iconoMenu" alt="ubicacion">
+                </li>
+                <li class="liIcono">
+                    <a href="" class="textMenu diplayMobile"> Eventos </a>
+                    <img src="./img/iconos/eventos.png" class="iconoMenu" alt="eventos">
+                </li>
+                <li class="liIcono">
+                    <a href="" class="textMenu diplayMobile">Alojamiento</a>
+                    <img src="./img/iconos/alojamiento.png" class="iconoMenu" alt="alojamiento">
+                </li>
+                <li class="liIcono">
+                    <a href="" class="textMenu diplayMobile">Contacto</a>
+                    <img src="./img/iconos/contacto.png" class="iconoMenu" alt="contacto">
+                </li>
+            </ul>
         </nav>
     </header>
 
     <section id="section-banner">
-        <h1>• MALANZÁN TURISMO •</h1>
+        <h1 class="textBanner">• MALANZÁN TURISMO •</h1>
     </section>
 
-    <section id="section-galeria">
-        <h2 >LUGARES PARA VISITAR</h2>
-            <a href="" >
-                <p>Cerro del elefante <strong > Ver Más...</strong></p>
-            </a>
-            <a href="">
-                <p>Los Toboganes <strong> Ver Más...</strong></p>
-            </a>
-            <a href="">
-                <p>Cruz gloriosa <strong> Ver Más...</strong></p>
-            </a>
-            <a href="">
-                <p >Casa de Descanso de Facundo Quiroga <strong> Ver Más...</strong></p>
-            </a>
-            <a href="" >
-                <p>Parroquia "Candelaria de Copacabana"<strong> Ver Más...</strong></p>
-            </a>
-            <a href="">
-                <p>Loma del Sagrado Corazón de Jesus <strong > Ver Más...</strong></p>
-            </a>
-            <a href="">
-                <p>Museo Runa Huasi <strong> Ver Más...</strong></p>
-            </a>
-            <a href="">
-                <p >La Virgen del camino <strong> Ver Más...</strong></p>
-            </a>
-            <a href="" >
-                <p >Camping "El Descanso" <strong> Ver Más...</strong></p>
-            </a>
+    <section id="section-galeria" class="divGaleria">
+        <h2 class="subtituloGaleria">• LUGARES PARA VISITAR •</h2>
+        <a href="" class="imagenLugares galeriaElefante">
+            <p class="textGaleria">Cerro del elefante <strong class="textParrafo"> Ver Más...</strong></p>
+        </a>
+        <a href="" class="imagenLugares galeriaToboganes">
+            <p class="textGaleria">Los Toboganes <strong class="textParrafo"> Ver Más...</strong></p>
+        </a>
+        <a href="" class="imagenLugares galeriaCruz">
+            <p class="textGaleria">Cruz gloriosa <strong class="textParrafo"> Ver Más...</strong></p>
+        </a>
+        <a href="" class="imagenLugares galeriaFacundo">
+            <p class="textGaleria">Casa de Descanso de Facundo Quiroga <strong class="textParrafo"> Ver Más...</strong>
+            </p>
+        </a>
+        <a href="" class="imagenLugares galeriaParroquia">
+            <p class="textGaleria">Parroquia "Candelaria de Copacabana"<strong class="textParrafo"> Ver Más...</strong>
+            </p>
+        </a>
+        <a href="" class="imagenLugares galeriaSagrado">
+            <p class="textGaleria">Loma del Sagrado Corazón de Jesus <strong class="textParrafo"> Ver Más...</strong>
+            </p>
+        </a>
+        <a href="" class="imagenLugares galeriaMuseo">
+            <p class="textGaleria">Museo Runa Huasi <strong class="textParrafo"> Ver Más...</strong></p>
+        </a>
+        <a href="" class="imagenLugares galeriaVirgenCamino">
+            <p class="textGaleria">La Virgen del camino <strong class="textParrafo"> Ver Más...</strong></p>
+        </a>
+        <a href="" class="imagenLugares galeriaDescanso">
+            <p class="textGaleria">Camping "El Descanso" <strong class="textParrafo"> Ver Más...</strong></p>
+        </a>
     </section>
 
     <section id="section-extra">
- 
-            <img src="../img/fotos/plaza principal.jpg" alt="">
 
-        <div>
-        <div >
-            <a href="./comida.html">Servicio de Comida</a>
+        <img src="../img/fotos/plaza principal.jpg" alt="" class="diplayMobile">
+
+        <div class="divPaginacion">
+            <div class="buttonExtra">
+                <a href="">Servicio de Comida</a>
+            </div>
+            <div class="buttonExtra">
+                <a href="">Preguntas Frecuentes</a>
+            </div>
+            <div class="buttonExtra">
+                <a href="">Números Importantes</a>
+            </div>
+
         </div>
-        <div >
-            <a>Preguntas Frecuentes</a>
-        </div>
-        <div >
-            <a>Números Importantes</a>
-        </div>
-            
-    </div>
     </section>
 
     <footer id="footer">
