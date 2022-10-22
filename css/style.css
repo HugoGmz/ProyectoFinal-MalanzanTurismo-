@@ -29,6 +29,14 @@ body {
     width: 15%;
     margin-left: 2%;
 }
+.liIcono a{
+    text-decoration: none;
+}
+.liIcono:hover p{
+    color: #000;
+    width: 50%;
+    font-size: 1.4rem;
+}
 
 .diplayMobile {
     display: none;
@@ -42,11 +50,9 @@ body {
     width: fit-content;
 }
 
-.textMenu:hover {
-    color: #000;
-    width: 50%;
-    font-size: 1.4rem;
-}
+/* .textMenu:hover {
+    
+} */
 
 .iconoMenu {
     width: 80%

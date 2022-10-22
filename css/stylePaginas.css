@@ -1,0 +1,26 @@
+/* UBICACIÓN */
+.tituloPagina {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000;
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+}
+
+.imagenUbicacion{
+    width: 95%;
+}
+
+.contenedorUbicacion {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#31302f;
+    font-size: 1.2em;
+    text-align: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
