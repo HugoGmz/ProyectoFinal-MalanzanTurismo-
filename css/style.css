@@ -35,7 +35,6 @@ body {
 .liIcono:hover p{
     color: #000;
     width: 50%;
-    font-size: 1.4rem;
 }
 
 .diplayMobile {
@@ -49,10 +48,6 @@ body {
     color: #606065;
     width: fit-content;
 }
-
-/* .textMenu:hover {
-    
-} */
 
 .iconoMenu {
     width: 80%

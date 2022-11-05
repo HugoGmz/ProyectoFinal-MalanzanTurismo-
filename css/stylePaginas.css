@@ -7,13 +7,13 @@
     font-size: 2em;
 }
 
-.imagenUbicacion{
+.imagenUbicacion {
     width: 95%;
 }
 
 .contenedorUbicacion {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:#31302f;
+    color: #31302f;
     font-size: 1.2em;
     text-align: center;
     width: 100%;
@@ -25,13 +25,64 @@
     align-items: center;
 }
 
+/* ALOJAMIENTO */
+.contenedorAlojamiento {
+    background-color: #ccce86;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+.tituloAlojamiento {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    padding: 1%;
+    margin: 0;
+}
+
+.subtituloAlojamiento {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8em;
+    padding-left: 1%;
+    margin: 0;
+}
+
+.contenedorImagenes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagenesAlojamientos {
+    width: 45%;
+    height: 30%;
+    margin: 1%;
+    border: solid #000;
+}
+
 /* MEDIA QUERIE */
 
 @media screen and (min-width: 768px) {
     .tituloPagina {
         font-size: 2.5em;
     }
+
     .contenedorUbicacion {
         font-size: 1.5em;
+    }
+    .tituloAlojamiento {
+        font-size: 2em;
+    }
+    
+    .subtituloAlojamiento {
+        font-size: 1.2em;
+    }
+
+    .imagenesAlojamientos {
+        width: 20%;
+        height: 30%;
+        margin: 1%;
+        border: solid #000;
     }
 }
