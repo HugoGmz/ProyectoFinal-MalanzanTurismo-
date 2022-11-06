@@ -44,7 +44,7 @@ body {
 .textMenu {
     font-size: 1.3rem;
     text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial, sans-serif';
     color: #606065;
     width: fit-content;
 }
@@ -66,14 +66,14 @@ body {
 
 .textBanner {
     margin-top: 15%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial, sans-serif';
     font-size: 1.8em;
     color: #fff;
 }
 
 /* section galeria */
 .subtituloGaleria {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial, sans-serif';
     color: #000;
     text-align: center;
     width: 100%;
@@ -140,7 +140,7 @@ body {
 }
 
 .textGaleria {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial, sans-serif';
     background-color: #ccce86;
     color: #000;
     text-align: center;
@@ -168,7 +168,7 @@ body {
 
 .buttonExtra a {
     text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial, sans-serif';
     color: #000;
 }
 
@@ -194,7 +194,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial, sans-serif';
     background-color: #ccce86;
     color: #000;
     font-size: 1em;
